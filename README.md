@@ -1,81 +1,43 @@
-School ERP Management System
+# 🎓 School Management ERP System
 
-A full-stack School ERP platform designed to manage academic and administrative workflows such as students, teachers, classes, attendance, exams, announcements, and events.
+A **Full-Stack School Management ERP** built to digitize and simplify academic and administrative operations within educational institutions. The platform centralizes student records, class management, attendance tracking, assignments, and academic communication into a single secure web application.
 
-The system provides role-based access control for administrators, teachers, students, and parents, enabling centralized and secure management of school operations.
+---
 
-This project demonstrates a database-driven ERP architecture suitable for real-world educational institutions.
+## 📌 Overview
 
-Project Overview
+This system helps schools efficiently manage their daily academic workflows through a digital platform. It provides role-based access for **administrators, teachers, students, and parents**, allowing each user to interact with the system according to their responsibilities. The ERP improves transparency, reduces manual work, and ensures better data management within institutions.
 
-Educational institutions often rely on multiple disconnected tools to manage academic and administrative activities. This project aims to provide a centralized ERP platform where all school operations can be managed in a single system.
+---
 
-The platform allows administrators to configure and manage the entire school ecosystem including students, teachers, academic structure, and communication modules.
+## 🚀 Key Features
 
-Key Features
+- Student and teacher management  
+- Class and subject management  
+- Attendance tracking system  
+- Assignment and announcement management  
+- Exam scheduling and result tracking  
+- Role-based access for admin, teachers, students, and parents  
 
-Student Management
+---
 
-Teacher Management
+## 🛠 Tech Stack
 
-Parent Management
+**Frontend:** Next.js, React, TypeScript, Tailwind CSS  
+**Backend:** Node.js, Next.js API Routes  
+**Database:** PostgreSQL  
+**ORM:** Prisma ORM  
+**Authentication:** Clerk Authentication  
 
-Class & Subject Allocation
+---
 
-Lesson Scheduling
+## ⚙️ Installation
 
-Attendance Tracking
-
-Exams & Results Management
-
-Events & Announcements
-
-Role-Based Access Control (Admin / Teacher / Student / Parent)
-
-Tech Stack
-
-Frontend
-
-Next.js
-
-React
-
-TypeScript
-
-Tailwind CSS
-
-Backend
-
-Node.js
-
-Prisma ORM
-
-Database
-
-PostgreSQL
-
-Authentication
-
-Clerk Authentication
-
-System Architecture
-
-The system follows a modular full-stack architecture:
-
-Frontend Layer
-
-Role-based dashboards
-
-Dynamic data rendering
-
-UI components for academic workflows
-
-Backend Layer
-
-Server-side API handling
-
-Authentication and role validation
-
+```bash
+git clone https://github.com/yourusername/school-management-erp.git
+cd school-management-erp
+npm install
+npm run dev
 Database access using Prisma ORM
 
 Database Layer
